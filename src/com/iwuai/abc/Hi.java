@@ -4,8 +4,7 @@ public class Hi {
 
 	public static void main(String[] args) {
 		Greeting greeting = new SayHi();
-		greeting.say();
-		//System.out.println("Hi,github.");
+		System.out.println(greeting.say());
 	}
 
 }

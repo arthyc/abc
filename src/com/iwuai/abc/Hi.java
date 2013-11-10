@@ -3,7 +3,9 @@ package com.iwuai.abc;
 public class Hi {
 
 	public static void main(String[] args) {
-		System.out.println("Hi,github.");
+		Greeting greeting = new SayHi();
+		greeting.say();
+		//System.out.println("Hi,github.");
 	}
 
 }
